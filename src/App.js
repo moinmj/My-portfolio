@@ -83,7 +83,7 @@ function App() {
           transition={{ delay: 1, duration: 1 }}
           className="mt-4 text-xl text-gray-300"
         >
-          A Passionate Full-Stack Developer 🚀
+          A Passionate AI/ML Engineer 🚀
         </motion.p>
         <motion.a
           href="#projects"
@@ -114,10 +114,12 @@ function App() {
           transition={{ duration: 1 }}
           className="max-w-2xl text-lg text-gray-300 text-center"
         >
-          I'm a creative developer who loves building modern, interactive, and
+          ✨ "I'm an AI/ML Engineer passionate about building intelligent, data-driven applications and scalable machine learning solutions. I work with <span className="text-blue-400">Python, FastAPI, Streamlit,</span> and MongoDB to develop end-to-end AI systems, from data processing to deployment. My interests include <span className="text-blue-400">deep learning, natural language processing, and AI-driven automation,</span> and I enjoy exploring <span className="text-blue-400">cloud technologies</span> to deliver impactful, real-world solutions."
+          {/* 💡 "I'm an AI/ML Engineer passionate about designing intelligent systems and deploying scalable machine learning solutions. I work with <span className="text-blue-400">Python, FastAPI, Streamlit,</span> and MongoDB, and enjoy building end-to-end AI applications from data processing to deployment. Beyond development, I explore advanced areas in <span className="text-blue-400">deep learning, natural language processing, and cloud-based AI</span> to create impactful solutions." */}
+          {/* I'm a creative developer who loves building modern, interactive, and
           user-friendly web applications. I enjoy working with{" "}
-          <span className="text-blue-400">React, TailwindCSS, FastAPI,</span> and
-          MongoDB. When I'm not coding, I explore AI and cloud technologies.
+          <span className="text-blue-400">Python, FastAPI, Streamlit, </span> and
+          MongoDB. When I'm not coding, I explore AI and cloud technologies. */}
         </motion.p>
       </section>
 
@@ -163,7 +165,7 @@ function App() {
             <FaEnvelope />
           </a>
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/moinmj"
             target="_blank"
             rel="noreferrer"
             className="hover:text-blue-400"
@@ -171,7 +173,7 @@ function App() {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/your-username"
+            href="https://linkedin.com/in/moinmj"
             target="_blank"
             rel="noreferrer"
             className="hover:text-blue-400"
